@@ -181,7 +181,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <!-- Hidden field to store last result -->
     <input type="hidden" name="last_result" value="<?php echo htmlspecialchars($result); ?>">
 
-    <div style="margin-top:12px;">
+    <div style="margin-top:10px;">
       <button class="btn" name="action" value="encrypt">Encrypt</button>
       <button class="btn" name="action" value="decrypt">Decrypt</button>
       <button class="btn" name="action" value="clear">Clear All</button>
